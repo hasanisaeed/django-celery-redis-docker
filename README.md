@@ -1,2 +1,2 @@
 # fast-async-job
-Example Django app for doing log job in background using Redis and Celery
+Example Django app for doing long job in background using Redis and Celery
