@@ -9,6 +9,9 @@ logger = get_task_logger(__name__)
 @app.task(name='my_first_task')
 def my_first_task(duration):
     sleep(duration)
+    print('*' * 100)
+    print('>> Oops!')
+    print('.' * 100)
     return ('first_task_done')
 
 
